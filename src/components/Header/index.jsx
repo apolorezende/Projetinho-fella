@@ -9,7 +9,7 @@ export function Header() {
       <nav className="nav">
         <Link className="link" to="/Abount">Abount</Link> |{" "}
         <Link className="link" to="/profile">Contract</Link> |{" "}
-        <Link className="link" to="/download">Download CV</Link>
+        <a className="curriculo" href="../../file/apolorezende.pdf" rel="curriculo" download> Download CV</a>
       </nav>
     </header>
   )
