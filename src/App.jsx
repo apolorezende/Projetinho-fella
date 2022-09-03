@@ -1,13 +1,18 @@
-import { Link } from "react-router-dom";
+import { render } from "react-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./page/home";
 
-export default function App() {
-  return (
-    <div>
-      <h1>Portifolio</h1>
-      <nav>
-        <Link to="/profile">Profile</Link> |{" "}
-        <Link to="/expenses">Abount</Link>
-      </nav>
-    </div>
-  );
+
+const rootElement = document.getElementById("root");
+
+export function App() {
+  render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  </BrowserRouter>,
+  rootElement
+);
 }
+
