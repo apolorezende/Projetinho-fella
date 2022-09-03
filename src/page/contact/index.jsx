@@ -1,10 +1,10 @@
 import { Header } from "../../components/Header"; 
 
-export function Home() {
+export function Contact() {
   return (
     <div>
       <Header/>
-      <h1> Home page</h1>
+      <h1> Contato </h1>
     </div>
   );
 }
