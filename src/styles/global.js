@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
+    background-color: #000000;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 

@@ -15,6 +15,7 @@ export function App() {
       <Route path="/about" element={<Home />} />
       <Route path="/project" element={<Home />} />
       <Route path="/setup" element={<Home />} />
+      <Route path="/ability" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
     <GlobalStyle/>

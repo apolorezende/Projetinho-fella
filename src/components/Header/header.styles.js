@@ -8,16 +8,15 @@ export const Header = styled.header`
   min-height: 50px;
   color: #fff !important;
   font-family: var(--fontPops);
+  padding-left: 20px;
 `
 
 export const H1 = styled.h1`
   font-size: x-large;
-  border: 0px;
 `
 export const Nav = styled.nav`
   p{
   background-color: #000000;
-  color: #fff;
   padding: 3px 10px;
   text-align: center;
   display: inline-block;
@@ -30,6 +29,6 @@ export const Nav = styled.nav`
   display: inline-block;
   border-radius: 16px;
   transition: 0.4s;
-}
+  }
   }
 `
