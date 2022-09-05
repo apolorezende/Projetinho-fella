@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from './preAbout.styles';
-import Rocket from '../../img/rocket.jpg'
 
 export function PreAbout() {
   return (

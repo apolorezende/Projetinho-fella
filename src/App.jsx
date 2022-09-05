@@ -1,7 +1,7 @@
 import { render } from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./page/home";
-import { Contact } from "./page/contact";
+import { Setup } from "./page/setup";
 import { GlobalStyle } from "./styles/global";
 
 
@@ -14,9 +14,8 @@ export function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<Home />} />
       <Route path="/project" element={<Home />} />
-      <Route path="/setup" element={<Home />} />
+      <Route path="/setup" element={<Setup />} />
       <Route path="/ability" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
     </Routes>
     <GlobalStyle/>
   </BrowserRouter>,

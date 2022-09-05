@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   align-items: center;
-  background-color: #000000;
+  background-color: #0f0b1e;
   display: flex;
   justify-content: space-between;
   min-height: 50px;
@@ -16,7 +16,6 @@ export const H1 = styled.h1`
 `
 export const Nav = styled.nav`
   p{
-  background-color: #000000;
   padding: 3px 10px;
   text-align: center;
   display: inline-block;

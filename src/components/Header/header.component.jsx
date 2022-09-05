@@ -11,7 +11,6 @@ export function Header() {
         <Link to="/project"><p>Project</p></Link> {" "}
         <Link to="/setup"><p>Setup</p></Link> {" "}
         <Link to="/ability"><p>Ability</p></Link> {" "}
-        <Link to="/contact"><p>Contact</p></Link> {" "}
         <a
           href="../../file/apolorezende.pdf"
           rel="curriculo" download>
@@ -20,4 +19,4 @@ export function Header() {
       </S.Nav>
     </S.Header>
   )
-}
+};
