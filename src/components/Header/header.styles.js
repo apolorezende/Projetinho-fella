@@ -31,3 +31,13 @@ export const Nav = styled.nav`
   }
   }
 `
+export const StyledLogo = styled.img`
+  width: 25px;
+  height: 25px;
+  & {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+`
