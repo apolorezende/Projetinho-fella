@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     --background: #000000;
     --fontPops: 'Poppins', sans-serif;
   }
-  html, body, div, span, applet, object, iframe,
+  html, body, div, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
@@ -34,6 +34,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
+    overflow-x: hidden;
   }
   ol, ul {
     list-style: none;

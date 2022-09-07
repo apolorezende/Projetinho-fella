@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+  height: 85vh;
   font-family: var(--fontPops);
+  width: 100%;
+  min-width: 200px;
 `
 export const StyledH1 = styled.h1`
   font-size: 35px;
@@ -28,5 +34,5 @@ export const StyledH3 = styled.h3`
 export const StyledOl = styled.ol`
   font-size: 15px;
   color: #fff;
-  margin: 20px
+  padding: 20px;
 `

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Footer = styled.footer`
   color: #fff !important;
   font-family: var(--fontPops);
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
